@@ -15,11 +15,11 @@ This project is a web-based YouTube Video Downloader that allows users to enter 
 
 ## How It Works
 
-1️⃣ User enters a YouTube URL in the input field.
-2️⃣ The frontend sends a POST request to the Flask backend.
-3️⃣ The backend uses yt-dlp to fetch and process the video.
-4️⃣ The video file is returned as a response.
-5️⃣ The browser starts automatic downloading into the user's Downloads folder.
+1. User enters a YouTube URL in the input field.
+2. The frontend sends a POST request to the Flask backend.
+3. The backend uses yt-dlp to fetch and process the video.
+4. The video file is returned as a response.
+5. The browser starts automatic downloading into the user's Downloads folder.
 
 ## Installation
 
