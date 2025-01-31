@@ -2,12 +2,16 @@
 
 ## Overview
 
-Provide a brief description of your project, its purpose, and what it aims to achieve.
+This project is a web-based YouTube Video Downloader that allows users to enter a YouTube video URL and download the video directly to their system. The frontend is built with React + Tailwind CSS, and the backend is powered by Flask + yt-dlp for processing and fetching video files.
 
 ## Features
 
-- List the key features of your project.
-- Highlight any unique aspects or functionalities.
+- User Input: Enter a YouTube video URL in a text field.
+- Validation: Ensures the entered URL is a valid YouTube link.
+- Download Mechanism: Fetches and processes the video from YouTube.
+- Direct Browser Download: Video is downloaded directly into the user's "Downloads" folder.
+- Toast Notifications: Shows success or error messages for user feedback.
+- Responsive UI: Works on desktop and mobile devices.
 
 ## Installation
 
