@@ -13,6 +13,14 @@ This project is a web-based YouTube Video Downloader that allows users to enter 
 - Toast Notifications: Shows success or error messages for user feedback.
 - Responsive UI: Works on desktop and mobile devices.
 
+## How It Works
+
+1️⃣ User enters a YouTube URL in the input field.
+2️⃣ The frontend sends a POST request to the Flask backend.
+3️⃣ The backend uses yt-dlp to fetch and process the video.
+4️⃣ The video file is returned as a response.
+5️⃣ The browser starts automatic downloading into the user's Downloads folder.
+
 ## Installation
 
 1. Clone the repository:
